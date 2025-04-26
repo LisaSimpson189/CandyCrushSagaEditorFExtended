@@ -110,10 +110,10 @@ td .candy_cannon {
     flex-direction: column;
 }
 
-.buttons .dropdown:hover {
-    border-bottom-color: #1b1d3f;
-    border-top-color: #5957a8;
-}
+    .buttons .dropdown:hover {
+        border-bottom-color: #2a2a2a;
+        border-top-color: #2a2a2a;
+    }
 
 .colorselected, .elementselected, .preferredselected {
     background-color: hsla(0, 0%, 0%, 0.565) !important;
@@ -127,10 +127,10 @@ td .candy_cannon {
     height: 40px;
     background: repeating-linear-gradient(
         45deg,
-        #404479,
-        #404479 10px,
-        #30335c 10px,
-        #30335c 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
       );
     border: 2px solid;
     margin: 0;
@@ -138,8 +138,8 @@ td .candy_cannon {
     text-align: left;
     text-decoration: none;
     display:inline-block;
-    border-top-color: #404479;
-    border-bottom-color: #30335c;
+    border-top-color: #2a2a2a;
+    border-bottom-color: #2a2a2a;
     border-left-color: transparent;
     border-right-color: transparent;
 }
@@ -163,10 +163,10 @@ td .candy_cannon {
 .sidetitle{
     background: repeating-linear-gradient(
         45deg,
-        #404479,
-        #404479 10px,
-        #30335c 10px,
-        #30335c 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
       );
     border: none;
     height: 45px;
@@ -181,10 +181,10 @@ td .candy_cannon {
 .sidetitleorder{
     background: repeating-linear-gradient(
         45deg,
-        #404479,
-        #404479 10px,
-        #30335c 10px,
-        #30335c 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
       );
     border: none;
     height: 56px;
@@ -199,10 +199,10 @@ td .candy_cannon {
 .sidetitlecannon{
     background: repeating-linear-gradient(
         45deg,
-        #404479,
-        #404479 10px,
-        #30335c 10px,
-        #30335c 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
       );
     border: none;
     height: 56px;
@@ -219,10 +219,10 @@ td .candy_cannon {
 .sidetitledream{
     background: repeating-linear-gradient(
         45deg,
-        #873ee6,
-        #873ee6 10px,
-        #702bb1 10px,
-        #702bb1 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
       );
     border: none;
     height: 45px;
@@ -244,10 +244,10 @@ td .candy_cannon {
     right: 0;
     background: repeating-linear-gradient(
         45deg,
-        #1d203f,
-        #1d203f 10px,
-        #15162e 10px,
-        #15162e 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
     );
     overflow-x: hidden;
     border-left: 1.5px solid #000000; 
@@ -260,7 +260,7 @@ td .candy_cannon {
     left: 0px; 
     width: 1.5px; 
     height: 1320%; 
-    background-color: #30335c; 
+    background-color: #2a2a2a; 
 }  
 
 #exportmenu, #importmenu, #creditsmenu {
@@ -299,10 +299,10 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     left: 0;
     background: repeating-linear-gradient(
         45deg,
-        #1d203f,
-        #1d203f 10px,
-        #15162e 10px,
-        #15162e 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
       );
     overflow-x: hidden; 
   }
@@ -313,10 +313,10 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     text-align:center;
     background: repeating-linear-gradient(
         45deg,
-        #1d203f,
-        #1d203f 10px,
-        #15162e 10px,
-        #15162e 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
       );
     border: none;
     min-height: 45px;
@@ -331,7 +331,7 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     align-items: center;
     justify-content: center;
     border: 2px solid;
-    border-bottom-color: #30335c;
+    border-bottom-color: #2a2a2a;
     border-left-color: transparent;
     border-right-color: transparent;
 }
@@ -340,10 +340,10 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     text-align:center;
     background: repeating-linear-gradient(
         45deg,
-        #501885,
-        #501885 10px,
-        #49157a 10px,
-        #49157a 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
       );
     border: none;
     min-height: 45px;
@@ -358,8 +358,8 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     align-items: center;
     justify-content: center;
     border: 2px solid;
-    border-top-color: #40136b;
-    border-bottom-color: #40136b;
+    border-top-color: #2a2a2a;
+    border-bottom-color: #2a2a2a;
     border-left-color: transparent;
     border-right-color: transparent;
 }
@@ -384,10 +384,10 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
 .dropped {
     background: repeating-linear-gradient(
         45deg,
-        #151632,
-        #151632 10px,
-        #0e0e20 10px,
-        #0e0e20 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
       );
     display: flex;
     flex-direction: row;
@@ -397,7 +397,7 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     padding: 10px;
     padding-left: 5%;
     padding-right:0;
-    border-bottom: 2px solid #30335c;
+    border-bottom: 2px solid #2a2a2a;
     box-shadow: 0 1.5px 0 black; 
 }
 
@@ -485,14 +485,14 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     overflow: hidden;
     background: repeating-linear-gradient(
         45deg,
-        #1d203f,
-        #1d203f 10px,
-        #15162e 10px,
-        #15162e 20px
+        #2a2a2a,
+        #2a2a2a 10px,
+        #2a2a2a 10px,
+        #2a2a2a 20px
       );
     border-style: solid;
     border-width: 2px;
-    border-color: #15192c;
+    border-color: #2a2a2a;
     position: fixed;
     top: 0;
     left: 0;
@@ -671,7 +671,7 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     width: 40%;
     height: 50%;
     margin: auto;
-    background-color: #545454;
+    background-color: #2a2a2a;
     position: absolute;
     top: 50%;
     left: 30%;
@@ -691,7 +691,6 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     bottom: 0;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
 
     position: absolute; 
     margin: auto;
