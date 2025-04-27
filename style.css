@@ -19,7 +19,7 @@ img[src=""] {
     position: relative;
     top: 0;
     left: 0;
-    
+
 }
 
 :root {
@@ -83,12 +83,12 @@ td .candy_cannon {
 
 /* KEEP THIS IT REMOVES THE SCROLLBARS AND MAKES THE SITE LOOK BETTER */
 * {
-    scrollbar-width: none; 
-    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 *::-webkit-scrollbar {
-    display: none; 
+    display: none;
 }
 
 
@@ -113,6 +113,10 @@ td .candy_cannon {
     .buttons .dropdown:hover {
         border-bottom-color: #2a2a2a;
         border-top-color: #2a2a2a;
+        border: 2px solid;
+        border-bottom-color: #2a2a2a;
+        border-left-color: transparent;
+        border-right-color: transparent;
     }
 
 .colorselected, .elementselected, .preferredselected {
@@ -139,6 +143,10 @@ td .candy_cannon {
     text-decoration: none;
     display:inline-block;
     border-top-color: #2a2a2a;
+    border-bottom-color: #2a2a2a;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border: 2px solid;
     border-bottom-color: #2a2a2a;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -218,11 +226,11 @@ td .candy_cannon {
 
 .sidetitledream{
     background: repeating-linear-gradient(
-        45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+
+        #873ee6,
+        #873ee6 0px,
+        #702bb1 0px,
+        #702bb1 0px
       );
     border: none;
     height: 45px;
@@ -236,11 +244,11 @@ td .candy_cannon {
 }
 
 .sideselectionright {
-    height: 95%; 
-    width: 20%; 
-    position: fixed; 
-    z-index: 1; 
-    bottom: 0; 
+    height: 95%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
     right: 0;
     background: repeating-linear-gradient(
         45deg,
@@ -250,30 +258,32 @@ td .candy_cannon {
         #2a2a2a 20px
     );
     overflow-x: hidden;
-    border-left: 1.5px solid #000000; 
+    border-left: 1.5px solid #000000;
 }
 
 .sideselectionright::before {
     content: "";
     position: absolute;
     top: 0;
-    left: 0px; 
-    width: 1.5px; 
-    height: 1320%; 
-    background-color: #2a2a2a; 
-}  
+    left: 0px;
+    width: 1.5px;
+    height: 1320%;
+    background-color: #2a2a2a;
+}
 
 #exportmenu, #importmenu, #creditsmenu {
-    position: fixed; 
-    width: 100vw; 
-    height: 100vh; 
-    background-color: #000000b5; 
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000b5;
     z-index: 100;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    top: 0; 
+    top: 0;
     left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 img[src="elements/cake_top_left.png"], img[src="elements/cake_bottom_left.png"]{
@@ -291,11 +301,11 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
 
 
 .sideselection {
-    height: 95%; 
-    width: 20%; 
-    position: fixed; 
-    z-index: 1; 
-    bottom: 0; 
+    height: 95%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
     left: 0;
     background: repeating-linear-gradient(
         45deg,
@@ -304,10 +314,10 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
         #2a2a2a 10px,
         #2a2a2a 20px
       );
-    overflow-x: hidden; 
+    overflow-x: hidden;
   }
 
-  
+
 
   .sideoptions {
     text-align:center;
@@ -339,11 +349,10 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
 .sideoptionsdream {
     text-align:center;
     background: repeating-linear-gradient(
-        45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+        #501885,
+        #501885 0px,
+        #49157a 0px,
+        #49157a 0px
       );
     border: none;
     min-height: 45px;
@@ -358,8 +367,8 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     align-items: center;
     justify-content: center;
     border: 2px solid;
-    border-top-color: #2a2a2a;
-    border-bottom-color: #2a2a2a;
+    border-top-color: #40136b;
+    border-bottom-color: #40136b;
     border-left-color: transparent;
     border-right-color: transparent;
 }
@@ -383,11 +392,11 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
 
 .dropped {
     background: repeating-linear-gradient(
-        45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+      0deg,
+        #151632,
+        #151632 0px,
+        #0e0e20 0px,
+        #0e0e20 0px
       );
     display: flex;
     flex-direction: row;
@@ -398,7 +407,7 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     padding-left: 5%;
     padding-right:0;
     border-bottom: 2px solid #2a2a2a;
-    box-shadow: 0 1.5px 0 black; 
+    box-shadow: 0 1.5px 0 black;
 }
 
 
@@ -671,7 +680,7 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     width: 40%;
     height: 50%;
     margin: auto;
-    background-color: #2a2a2a;
+    background-color: #151632;
     position: absolute;
     top: 50%;
     left: 30%;
@@ -683,7 +692,9 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
 }
+
 
 #level img {
     top: 0px;
@@ -692,9 +703,33 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
 
-    position: absolute; 
+    position: absolute;
     margin: auto;
     right: 0;
     text-align: center;
     z-index: 1;
 }
+
+ /* Close button styled to match design */
+ .exit-bt {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.5s;
+  }
+  .exit-bt:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.6);
+    background-color: #151632; /* Solid black on hover */
+  }
+
