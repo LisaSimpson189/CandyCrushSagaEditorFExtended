@@ -113,7 +113,6 @@ td .candy_cannon {
     .buttons .dropdown:hover {
         border-bottom-color: #2a2a2a;
         border-top-color: #2a2a2a;
-        border: 2px solid;
         border-bottom-color: #2a2a2a;
         border-left-color: transparent;
         border-right-color: transparent;
@@ -131,12 +130,11 @@ td .candy_cannon {
     height: 40px;
     background: repeating-linear-gradient(
         45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+        #404479,
+        #404479 0px,
+        #30335c 0px,
+        #30335c 0px
       );
-    border: 2px solid;
     margin: 0;
     color: #ffffff;
     text-align: left;
@@ -146,7 +144,6 @@ td .candy_cannon {
     border-bottom-color: #2a2a2a;
     border-left-color: transparent;
     border-right-color: transparent;
-    border: 2px solid;
     border-bottom-color: #2a2a2a;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -171,10 +168,10 @@ td .candy_cannon {
 .sidetitle{
     background: repeating-linear-gradient(
         45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+        #404479,
+        #404479 0px,
+        #30335c 0px,
+        #30335c 0px
       );
     border: none;
     height: 45px;
@@ -189,10 +186,10 @@ td .candy_cannon {
 .sidetitleorder{
     background: repeating-linear-gradient(
         45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+        #404479,
+        #404479 0px,
+        #30335c 0px,
+        #30335c 20px
       );
     border: none;
     height: 56px;
@@ -207,10 +204,10 @@ td .candy_cannon {
 .sidetitlecannon{
     background: repeating-linear-gradient(
         45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+        #30335c,
+        #404479 0px,
+        #30335c 0px,
+        #30335c 0px
       );
     border: none;
     height: 56px;
@@ -252,10 +249,10 @@ td .candy_cannon {
     right: 0;
     background: repeating-linear-gradient(
         45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+        #1d203f,
+        #1d203f 0px,
+        #15162e 0px,
+        #15162e 0px
     );
     overflow-x: hidden;
     border-left: 1.5px solid #000000;
@@ -309,10 +306,10 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     left: 0;
     background: repeating-linear-gradient(
         45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+        #1d203f,
+        #1d203f 0px,
+        #15162e 0px,
+        #15162e 0px
       );
     overflow-x: hidden;
   }
@@ -323,10 +320,10 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     text-align:center;
     background: repeating-linear-gradient(
         45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+        #1d203f,
+        #1d203f 0px,
+        #15162e 0px,
+        #15162e 0px
       );
     border: none;
     min-height: 45px;
@@ -494,10 +491,10 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     overflow: hidden;
     background: repeating-linear-gradient(
         45deg,
-        #2a2a2a,
-        #2a2a2a 10px,
-        #2a2a2a 10px,
-        #2a2a2a 20px
+        #1d203f,
+        #1d203f 0px,
+        #15162e 0px,
+        #15162e 0px
       );
     border-style: solid;
     border-width: 2px;
