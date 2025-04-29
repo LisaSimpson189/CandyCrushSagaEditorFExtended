@@ -110,12 +110,17 @@ td .candy_cannon {
     flex-direction: column;
 }
 
-    .buttons .dropdown:hover {
+  /*  .buttons .dropdown:hover {
         border-bottom-color: #2a2a2a;
         border-top-color: #2a2a2a;
         border-bottom-color: #2a2a2a;
         border-left-color: transparent;
         border-right-color: transparent;
+    } */
+
+    .buttons .dropdown:hover {
+        border-bottom-color: #1b1d3f;
+        border-top-color: #5957a8;
     }
 
 .colorselected, .elementselected, .preferredselected {
@@ -140,11 +145,8 @@ td .candy_cannon {
     text-align: left;
     text-decoration: none;
     display:inline-block;
-    border-top-color: #2a2a2a;
-    border-bottom-color: #2a2a2a;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: #2a2a2a;
+    border-top-color: #404479;
+    border-bottom-color: #30335c;
     border-left-color: transparent;
     border-right-color: transparent;
 }

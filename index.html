@@ -14,6 +14,13 @@
         <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta http-equiv="Pragma" content="no-cache" />
         <meta http-equiv="Expires" content="0" />
+
+        <script>
+            if (localStorage.getItem('pinkThemeBeta') === 'true') {
+              window.location.href = 'pink.html';
+            }
+          </script>
+
     </head>
 
     <body>
@@ -32,7 +39,7 @@
                     <div class="navbarflex">
                     </div>
                     <br>
-                    <div class="navbarflex" style=" margin: 1px; display: block; margin-top: 5px;">
+                    <div class="navbarflex" style=" margin: 75px; display: block; margin-top: 5px;">
 
                         <button style="border-radius: 10px; background: #00000000; width: 25%; font-size: 1em; margin-left: -99px; color: white; border: 2px solid #00000000; text-align: center; padding: 5px; padding-top: 5px; padding-left: 1px; padding-right: 1px; border: #1d203f; background-color: #1d203f;" onclick="window.open('https://lisasimpson189.github.io/CandyCrushSagaExtensionEditor/?levelCode=' + JSON.stringify(exportLevel()), '_blank')">▶ Play</button>
                          <button style="border-radius: 10px; background: #00000000; width: 25%; font-size: 1em; margin-top: 0px; color: white; border: 2px solid #00000000; text-align: center;  padding: 5px; padding-top: 5px; padding-left: 1px; padding-right: 1px; border: #1d203f; background-color: #1d203f;" onclick="exportLevelUI()">⏏ Export Level</button>
@@ -674,6 +681,16 @@
                 <div class="break"></div>
                 <p style="color:hsl(36, 100%, 84%); width: 80%; text-align: center;">Come join the server to share your levels!</p>
                 <button onclick="window.open('https://discord.gg/ZrKGprP7wp')" style="margin-right: auto; margin-left: auto; display: block; height: 47px; padding: 10px 20px; font-size: 16px; font-weight: normal; font-family: 'BananaSplit', sans-serif; color: white; background: repeating-linear-gradient(45deg, #151632, #151632 0px, #151632 0px, #151632 0px); border: 2px solid #232323; border-radius: 5px; box-shadow: 0 4px 6px rgb(0, 0, 0); cursor: pointer; transition: all 0.3s ease;">Candy Crush Custom Levels Hub</button>
+                <button onclick="activatePinkTheme()" style="margin-right: auto; margin-left: auto; display: block; height: 47px; padding: 10px 20px; font-size: 16px; font-weight: normal; font-family: 'BananaSplit', sans-serif; color: #5E2232; background: repeating-linear-gradient(45deg, #F1C0DC, #F1C0DC 10px, #F1C0DC 10px, #F1C0DC 20px); border: 2px solid #6C445A; border-radius: 5px; cursor: pointer; transition: all 0.3s ease;">
+                    Try out the new pink theme!
+                  </button>
+
+                  <script>
+                    function activatePinkTheme() {
+                      localStorage.setItem('pinkThemeBeta', 'true');
+                      window.location.href = 'pink.html'; // redirect to the pink version
+                    }
+                  </script>
 
 
                 <div class="break"></div>
