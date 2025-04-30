@@ -357,8 +357,8 @@ img[src="elements/cake_top_right.png"], img[src="elements/cake_bottom_right.png"
     border: 2px solid;
     border-top-color: #40136b;
     border-bottom-color: #40136b;
-    border-left-color: transparent;
-    border-right-color: transparent;
+    border-left-color: #40136b;
+    border-right-color: #40136b;
 }
 
 .leveltypelabel {
